@@ -17,4 +17,11 @@
   text-decoration: none;
   font-weight: bold;
 }
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 60px 40px;
+  background-color: #1e293b;
+}
 
