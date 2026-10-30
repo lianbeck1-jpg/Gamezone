@@ -1,6 +1,12 @@
 * {
     box-sizing: border-box;
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: white;
+}
 
 .navbar {
   display: flex;
@@ -62,4 +68,27 @@ footer {
   color: white;
   text-align: center;
   padding: 25px;
+}
+.explore-btn:hover {
+  background-color: #2563eb;
+}
+For the game cards, try:
+.game-card:hover {
+  transform: translateY(-5px);
+}
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
 }
