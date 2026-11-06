@@ -69,7 +69,7 @@ body {
 }
 
 /* Explore link styled as a button */
-.explore-btn {
+button {
   display: inline-block;
   padding: 15px 22px;
   background-color: white;
@@ -79,7 +79,7 @@ body {
   font-weight: bold;
 }
 
-.explore-btn:hover {
+button:hover {
   background-color: #2563eb;
   color: white;
 }
